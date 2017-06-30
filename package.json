@@ -1,0 +1,35 @@
+{
+  "name": "sfcopy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sf_copy_pckg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterdedic/sf_copy_pckg.git"
+  },
+  "keywords": [
+    "salesforce.com",
+    "package",
+    "copy"
+  ],
+  "author": "Peter Dědič",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterdedic/sf_copy_pckg/issues"
+  },
+  "homepage": "https://github.com/peterdedic/sf_copy_pckg#readme",
+  "scripts": {
+    "start": "node sf_copy_pckg.js"
+  },
+  "bin": {
+    "sfcopy": "./sf_copy_pckg.js"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "xml2js": "^0.4.17"
+  }
+}
+  
