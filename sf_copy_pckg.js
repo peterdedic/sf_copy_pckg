@@ -81,7 +81,7 @@ function copyPackage(fileListFileName, targetDir) {
 	if (fileListFileName && _fs.existsSync(fileListFileName)) {
 		let str = _fs.readFileSync(fileListFileName, 'utf8');
 		// console.log(str);
-		let list = str.split('\n');
+		let list = str.split(/\r?\n/);
 
 
 		list.forEach(entry => {
