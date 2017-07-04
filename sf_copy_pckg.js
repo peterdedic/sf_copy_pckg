@@ -125,7 +125,7 @@ function copyPackage(fileListFileName, targetDir) {
 			if (!_fs.existsSync(p)) {
 				let tempPath = '';
 
-				p.split('\\').forEach(dSeg => {
+				p.split(_path.sep).forEach(dSeg => {
 					// console.log('dSeg:',dSeg)
 					tempPath = _path.join(tempPath, dSeg);
 					// console.log('tempPath:',tempPath)
